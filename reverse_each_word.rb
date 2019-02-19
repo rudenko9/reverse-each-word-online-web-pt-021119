@@ -7,8 +7,8 @@ def reverse_each_word(phrase1)
  returning.join(" ")
  end 
  
- def reverse_each_word(sentence2)
- array = sentence2.split(" ")
+ def reverse_each_word(phrase2)
+ array = phrase2.split(" ")
  returning = []
  array.collect do |word|
    returning << word.reverse
